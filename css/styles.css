@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(206, 214, 240);
+  font-family: "Roboto", sans-serif;
+}
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+main {
+  border-radius: 15px;
+  background-color: white;
+  text-align: center;
+  margin: 100px 100px;
+  padding: 70px 0px;
+}
+
+img {
+  height: 30px;
+}
+p {
+  color: grey;
+  margin: 0%;
+}
+
+div {
+  /* padding: 30px; */
+}
+
+.title {
+  color: rgb(15, 29, 86);
+}
+
+.icons {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 50px 50px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . .";
+
+  text-align: left;
+}
+
+#services {
+  color: rgb(115, 144, 234);
+}
+
+#titulo_principal {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
